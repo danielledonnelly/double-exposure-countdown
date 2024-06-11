@@ -122,7 +122,7 @@ a:hover {
 
   .polaroid {
     width: 90%;
-    max-width: 300px;
+    width: 150px;
     height: 200px;
   }
 
@@ -146,7 +146,7 @@ a:hover {
 
   #reveal-countdown,
   #game-countdown {
-    font-size: 28px;
+    font-size: 20px;
   }
 }
 
