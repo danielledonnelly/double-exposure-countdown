@@ -120,10 +120,12 @@ a:hover {
   body {
     margin: 30px 5px 5px 5px;
     align-items: center;
+    text-align: center;
   }
 
   .countdown-container{
     margin-bottom: 100px !important;
+    align-items: center;
   }
 
   .polaroid {
@@ -131,7 +133,7 @@ a:hover {
     width: 180px;
     height: 200px;
     margin: 20px 5px;
-    text-align: center;
+    align-items: center;
   }
 
   .countdown {
@@ -144,16 +146,17 @@ a:hover {
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 15px;
     margin-bottom: 40px;
     margin-left: none;
+    text-align: center;
   }
 
   h2 {
     font-size: 22px;
     margin-bottom: 30px;
-    align-items: center;
+    text-align: center;
   }
 
   h3 {
