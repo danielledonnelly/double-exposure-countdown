@@ -58,7 +58,7 @@ h1 {
   font-size: 38px;
   margin-top: 20px;
   margin-bottom: 60px;
-  margin-left: 40px;
+  padding-left: 40px;
   color: #ffffff;
   text-align: left;
   text-transform: uppercase;
@@ -160,6 +160,7 @@ footer{
     margin-left: none;
     margin-right: none;
     text-align: center;
+    padding: none;
   }
 
   h2 {
@@ -183,6 +184,7 @@ footer{
 
   .main-heading br {
     display: visible;
+    margin: auto;
   }
 
   footer{
