@@ -35,9 +35,7 @@ body {
   width: 340px;
   height: 350px;
   padding: 0px 0px 0px 0px;
-  background-color: #252525; /* Black square */
   margin-bottom: 20px;
-  border: 1px solid #04007fa5;
   }
 
 .reveal {
@@ -115,6 +113,10 @@ a:hover {
   text-shadow:  #000000 0px 0px 20px, #0c0036 0px 0px 30px, #04007e 0px 0px 40px, #2c00af 0px 0px 50px, #0e0041 0px 0px 75px, 0px 0px 16px rgba(0,0,0,0.96);
 }
 
+footer{
+  color: rgba(0, 0, 0, 0.4)
+}
+
 @media only screen and (min-width: 800px) {
 .main-heading br {
   display: none;
@@ -124,7 +126,7 @@ a:hover {
 @media only screen and (max-width: 800px) {
 
   body {
-    margin: 30px 5px 5px 5px;
+    margin: 0px 0px 0px 0px;
     align-items: center;
     text-align: center;
   }
@@ -180,6 +182,10 @@ a:hover {
 
   .main-heading br {
     display: visible;
+  }
+
+  footer{
+    color: transparent;
   }
 }
 
