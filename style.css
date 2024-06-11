@@ -1,0 +1,116 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(90deg, #212121, #000000);
+  margin: 50px 10px 10px 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.polaroid {
+  text-align: center;
+  width: 340px;
+  height: 400px;
+  padding: 16px 14px 70px 14px;
+  border-radius: 2px;
+  background: linear-gradient(240deg, #ffffff, #cbd8e9, #d7dee0);
+  margin: 20px;
+  overflow: hidden;
+  box-shadow: 
+    0 0 5px rgba(238, 130, 238, 0.5), /* Violet */
+    0 0 10px rgba(0, 0, 255, 0.5),    /* Blue */
+    0 0 15px rgba(0, 255, 255, 0.5),  /* Cyan */
+    0 0 20px rgba(0, 255, 0, 0.5),    /* Lime */
+    0 0 25px rgba(255, 255, 0, 0.5),  /* Yellow */
+    0 0 30px rgba(255, 165, 0, 0.5),  /* Orange */
+    0 0 35px rgba(255, 0, 0, 0.5);     /* Red */
+}
+  
+.countdown {
+  width: 340px;
+  height: 350px;
+  padding: 0px 0px 0px 0px;
+  background-color: #252525; /* Black square */
+  margin-bottom: 20px;
+  border: 1px solid #04007fa5;
+  }
+
+.reveal {
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/life-is-strange-double-exposure-max-666614602923c.jpg?crop=0.751xw:1.00xh;0.182xw,0&resize=1200:*");
+  background-size: cover;
+}
+
+.release {
+  background-image: url("https://www.gameinformer.com/sites/default/files/styles/full/public/2024/06/09/9c67474e/lifeisstrange_02.jpg");
+  background-size: cover;
+  background-position: 20% center; /* Adjust the position to show more content on the right */
+}
+
+
+.p{
+  color: black !important;
+}
+
+h1 {
+  font-size: 38px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 
+      0 0 10px violet,
+      0 0 20px blue,
+      0 0 30px cyan,
+      0 0 40px lime,
+      0 0 50px yellow,
+      0 0 60px orange,
+      0 0 70px red;
+}
+
+h2 {
+  font-size: 34px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+}
+
+.background-art {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+a {
+  color: #0080c0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #000000;
+}
+
+#reveal-countdown,
+#game-countdown {
+  font-size: 36px;
+  color: #defffa;
+  text-shadow:  #000000 0px 0px 20px, #0c0036 0px 0px 30px, #04007e 0px 0px 40px, #2c00af 0px 0px 50px, #0e0041 0px 0px 75px, 0px 0px 16px rgba(0,0,0,0.96);
+}
