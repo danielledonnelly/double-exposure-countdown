@@ -115,13 +115,13 @@ a:hover {
   text-shadow:  #000000 0px 0px 20px, #0c0036 0px 0px 30px, #04007e 0px 0px 40px, #2c00af 0px 0px 50px, #0e0041 0px 0px 75px, 0px 0px 16px rgba(0,0,0,0.96);
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 750px) {
 .main-heading br {
   display: none;
 }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 750px) {
 
   body {
     margin: 30px 5px 5px 5px;
@@ -156,7 +156,7 @@ a:hover {
     margin-top: 15px;
     margin-bottom: 40px;
     margin-left: none;
-    text-align: left;
+    text-align: none;
   }
 
   h2 {
