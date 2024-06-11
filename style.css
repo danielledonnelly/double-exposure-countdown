@@ -2,14 +2,13 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(90deg, #212121, #000000);
   margin: 50px 10px 10px 10px;
-  text-align: center;
+  text-align: left;
   overflow: hidden;
 }
 
 .countdown-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: left;
   margin-top: 50px;
 }
 
@@ -61,8 +60,9 @@ h1 {
   font-size: 38px;
   margin-top: 20px;
   margin-bottom: 60px;
+  margin-left: 40px;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-shadow: 
@@ -116,8 +116,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 750px) {
+
   body {
     margin: 30px 5px 5px 5px;
+    align-items: center;
   }
 
   .countdown-container{
@@ -129,6 +131,7 @@ a:hover {
     width: 180px;
     height: 200px;
     margin: 20px 5px;
+    text-align: center;
   }
 
   .countdown {
@@ -137,17 +140,20 @@ a:hover {
     max-width: 300px;
     margin-bottom: -14px;
     padding-bottom: 0px;
+    text-align: center;
   }
 
   h1 {
     font-size: 28px;
     margin-top: 15px;
     margin-bottom: 40px;
+    margin-left: none;
   }
 
   h2 {
     font-size: 24px;
     margin-bottom: 30px;
+    align-items: center;
   }
 
   h3 {
