@@ -138,7 +138,7 @@ a:hover {
     width: 100%;
     height: 100%;
     max-width: 300px;
-    margin-bottom: -8px;
+    margin-bottom: -4px;
     padding-bottom: 0px;
     text-align: center;
   }
@@ -157,11 +157,11 @@ a:hover {
   }
 
   h3 {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   p {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   #reveal-countdown,
