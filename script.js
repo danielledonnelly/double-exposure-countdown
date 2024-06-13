@@ -17,13 +17,14 @@ var revealCountdown = setInterval(function() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    document.getElementById("reveal-countdown").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
+    var countdownText = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
     if (distance < 0) {
         clearInterval(revealCountdown);
-        document.getElementById("reveal-countdown").innerHTML = "EXPIRED";
+        countdownText = "0d 0h 0m 0s";
     }
+
+    document.getElementById("reveal-countdown").innerHTML = countdownText;
 }, 1000);
 
 
