@@ -27,8 +27,6 @@ var revealCountdown = setInterval(function() {
     document.getElementById("reveal-countdown").innerHTML = countdownText;
 }, 1000);
 
-
-
 // Game Release Countdown
 var gameCountdownDate = new Date("October 29, 2024 00:00:00").getTime();
 
